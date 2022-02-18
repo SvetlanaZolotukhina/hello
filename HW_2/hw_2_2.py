@@ -7,3 +7,4 @@ print('Ваш список: ', my_list)
 for el in range(0, len(my_list)-1, 2):
     my_list[el], my_list[el+1] = my_list[el+1], my_list[el]
 print('А это ваш список после обмена соседних элементов: ', my_list)
+print('До свидания!')

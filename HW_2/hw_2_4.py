@@ -4,3 +4,4 @@ a = input('Введите строку из нескольких слов чер
 lst = a.split( )
 for end, el in enumerate(lst, 1):
     print(end, el[0:10])
+print('До свидания!')
