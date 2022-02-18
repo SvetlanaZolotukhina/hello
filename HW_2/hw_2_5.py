@@ -20,4 +20,3 @@ for el in my_list:
 if not inserted:
     my_list.append(a)
 print('Новый рейтинг: ', my_list)
-print('До свидания!')

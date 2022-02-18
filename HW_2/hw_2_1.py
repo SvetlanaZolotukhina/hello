@@ -4,4 +4,3 @@
 my_list_1 = [2, 5, 'Svetlana', 23.11, True, [1, 2, 3, 4]]
 for el in my_list_1:
     print(type(el))
-print('До свидания!')
