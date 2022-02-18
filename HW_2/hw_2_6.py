@@ -32,7 +32,6 @@ while still != 'No':
     products.append((number, {'name': name, 'price': price, 'how_much':how_much, 'how':how}))
     number +=1
     still = input('Еще есть товары? Если нет, то введите No, если еще есть товары просто нажмите любую клавишу ')
-# print(products)
 print()
 products_d = {'name': [], 'price': [], 'how_much': [], 'how': []} #собираем полученные данные в один словарь по ключу
 for numb, prod_dict in products:
